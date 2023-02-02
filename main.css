@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #E5E5CB;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+header {
+  background-image: url("bg-header.jfif"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+nav {
+  background: #D67D3E;
+  border-style: hidden;
+  align-content: justify;
+  overflow: hidden;
+}
+
+nav .logo {
+  float: left;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu a:before,
+.menu a:after {
+  content: "";
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.menu li {
+  float: left;
+  display: inline-block;
+  justify-content: center;
+}
+
+.menu a {
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  diaplay: block;
+  position: relative;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: #D67D3E;
+  text-decoration: underline;
+}
+
+.menu a.active {
+  background-color: rosybrown;
+  color: white;
+}
+
+.menu a:visted {
+  color: darkgreen;
+}
+
+#main-heading {
+  border-style: dotted;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+h1 {
+	color: #876445
+}
+
+h2 {
+  color:#D67D3E;
+  text-align: center;
+}
+
+p {
+	color: #3C2A21
+
+}
+
+a:hover {
+  color: #8A8635;
+}
+
+a:visted {
+  color: yellow;
+}
+
+.main_content > article {
+  padding: 20px;
+}
+
+#task > p {
+  text-align: justify;
+}
+
+#task > p > img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#task > p > a:visted {
+  color: darkgreen;
+}
+
+#task > p > a:hover {
+  color: #D67D3E;
+  text-decoration: underline;
+}
+
+#requirements > p {
+  text-align: justify;
+}
+
+#submission  {
+  text-align: center;
+}
+
+#grading {
+  text-align: center;
+}
+
+#grading > table {
+  border-collapse: collapse;
+}
+
+#grading > table, th, td {
+  border: 1px solid;
+  padding: 8px;
+}
+
+#grading > table tr:hover {
+  background-color: #D67D3E;
+}
+
+aside h3 {
+  font-size: 30px;
+  color: #D67D3E;
+  text-align: center;
+}
+
+#deadline > h4 {
+  color: red;
+}
+
+footer {
+  background: #D67D3E;
+  justify-content: space-evenly;
+  text-decoration: none;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+}
+
+footer ul a, footer p{
+  text-decoration: none;
+  color: white;
+}
+
+footer > .contacts, .categories ,.quick_links {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
