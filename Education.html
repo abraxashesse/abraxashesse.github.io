@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yelnur's Education</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/165eb8399f.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <div id="header">
+      <div class="container">
+         <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="Education.html">Education</a></li>
+               <li><a href="Skills.html">Skills</a></li>
+               <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <h1>Education</h1>
+            <p><span>2019-2023</span><br>Nazarbayev University</p>
+         </div>
+      </div>
+    </div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> yelinuer.nuerlan@nu.edu.kz</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/yelnurn/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+               <div><h1>My Address</h1></div>
+               <br>
+                <iframe src="https://maps.google.com/maps?q=Nazarbayev%20university,%20Nur-Sultan&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+            </div>
+        </div>
+    </div>
+    
+<script>
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu(){
+      sidemenu.style.right = "0";
+   }
+   function closemenu(){
+      sidemenu.style.right = "-200px";
+   }
+</script>
+</body>
+</html>
